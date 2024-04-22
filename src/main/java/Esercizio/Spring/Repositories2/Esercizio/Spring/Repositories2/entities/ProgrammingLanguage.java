@@ -25,4 +25,28 @@ public class ProgrammingLanguage {
 
     @Column(nullable = false)
     private String inventor;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public OffsetDateTime getFirstAppearance() {
+        return firstAppearance;
+    }
+
+    public void setFirstAppearance(OffsetDateTime firstAppearance) {
+        this.firstAppearance = firstAppearance;
+    }
+
+    public String getInventor() {
+        return inventor;
+    }
+
+    public void setInventor(String inventor) {
+        this.inventor = inventor;
+    }
 }
